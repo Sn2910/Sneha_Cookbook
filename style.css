@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    height: 40vh;
+    width: 100%;
+    background-image: url(./images/cookbook-bgpic.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid white;
+}
+.header .head-container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 12px;
+    border: 1px solid white;
+  
+   
+}
+.header .logo-container{
+    display: flex;
+}
+.header .logo{
+    display: flex; 
+    justify-content: space-around;
+    
+}
+.header .logo img{
+    width: 50px;
+    height: 50px;
+}
+.header .logo h1{
+    font-size: 1.2em;
+    color: white;
+    padding-top: 20px;
+}
+.header .nav{
+   
+    margin: 0 auto;
+}
+.header .nav li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 20px;
+    margin-bottom: 20px;
+   
+}
+.header .nav li a{
+    color: white;
+    text-decoration: none;
+}
+.header .header-content{
+    position: absolute;
+    top: 15%;
+    left:35%
+}
+.header .header-content h2{
+    color: white;
+    line-height: 2;
+}
+.header .header-content p{
+    color: white;
+}
+/*===========HEro Section=========*/
+.hero .row{
+    width: 70%;
+    margin: 5% auto;
+    border:  1px solid red;
+}
+.hero .row img{
+   width: 200px;
+   height: 200px;
+}
+.hero .row{
+    display: flex;
+    
+
+}
+.hero .row p{
+    padding-top: 10px;
+    width: 70%;
+}
+.hero .row .col-4{
+    align-items: center;
+    border: 1px solid black;
+   
+}
