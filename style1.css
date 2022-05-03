@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.recipe_img{
+    background-image: url(./images/pexels-shantanu-pal-2679501.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+}
+.recipe_container{
+    width:100%;
+    background:rgba(240, 235, 235, 0.2);
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.3);
+    backdrop-filter: blur(.4rem);
+    padding:1.5rem;
+    border-radius: 1rem;
+    position: absolute;
+    top:83%;
+}
+
+.recipe_title{
+  
+   text-align: center;
+
+}
+.recipe_name{
+    font-size: 36px;
+}
+
+.recipe_title p span{
+ color: #fff;
+ font-size: 26px;
+ font-weight: 900;
+
+}
+.recipe_title p{
+    padding-top: 10px;
+    font-size: 26px;
+    font-weight: 900;
+    
+}
+.main_container{
+    width: 90%;
+    margin: auto;
+    position: relative;
+}
+.description p{
+    font-size: 24px;
+    text-align: center;
+}
+.section{
+    
+    margin: 60px ;
+}
+.section p{
+    font-size: 26px;
+}
+.instruction{
+    display: flex;
+   
+    }
+    .instruction .row {
+
+    text-align: center;
+    padding: 40px 20px;
+
+    box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.1) ;
+    cursor: pointer;
+    background-color: rgb(177, 15, 15);
+    border-radius: 50px;
+    transition: transform 0.5s;
+    }
+    .instruction .row h1{
+        font-size: 30px;
+        font-weight: 900;
+        margin-bottom: 30px;
+        
+       
+    }
+    .instruction .row .col{
+        padding: 0 20px;
+    }
+    .instruction .row .col p{
+     text-align: left;
+     font-size: 26px;
+     padding-bottom: 20px;
+    
+    }
+    .instruction ul{
+        list-style: none;
+    }
+   
